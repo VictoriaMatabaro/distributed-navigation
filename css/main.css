@@ -32,23 +32,24 @@ body {
 }
 
 header h1 {
-z-index: 1;
+  z-index: 1;
 }
 
 header img {
   width: 2rem;
   grid-row: 1;
-  text-align: left;
 }
 
 header p {
-  font-style: italic;
   font-size: 1.125rem;
+  font-weight: normal;
+  padding: .6em;
 }
 
 nav a {
   text-decoration: none;
   color: #0074d9;
+  padding: 1rem;
 }
 
 nav a:hover {
