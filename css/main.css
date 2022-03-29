@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+  background-color: #fff;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  width: 2rem;
+  grid-row: 1;
+  grid-column: 1;
+}
+
+header {
+  flex-direction: row;
+  background-color: #e2e2e2;
+  padding: 0;
+  justify-content: space-around;
+  z-index: 1;
+  font-family: sans-serif;
+  align-self: end;
+  display: flex;
+
+}
+
+nav ul {
+  color: #0074d9;
+  list-style-type: none;
+  margin: .5em;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+
+}
